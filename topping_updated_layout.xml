@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/topping_container"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:layout_gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<HorizontalScrollView-->
+        <!--android:layout_gravity="bottom|center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <LinearLayout
+            android:layout_gravity="bottom|center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_marginBottom="4dp"
+    android:gravity="start"
+    android:layout_gravity="bottom|center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/topping1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/heart_topping"/>
+    <Button
+        android:id="@+id/topping2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/star_topping"/>
+    <Button
+        android:id="@+id/topping3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/oval_topping" />
+
+    <Button
+        android:id="@+id/topping4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/meshushe_topping" />
+    <Button
+        android:id="@+id/topping5"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/squere_topping" />
+
+    <Button
+        android:id="@+id/topping6"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/truangle_topping"/>
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:gravity="start"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/topping7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/bird_topping"/>
+        <Button
+            android:id="@+id/topping8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/apple_topping"/>
+        <Button
+            android:id="@+id/topping9"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/lighten_topping" />
+
+        <Button
+            android:id="@+id/topping10"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/dog_sit_topping" />
+        <Button
+            android:id="@+id/topping11"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/guitar_topping" />
+        <Button
+            android:id="@+id/topping12"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/baloon_topping" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="start"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/topping13"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/line_topping"/>
+        <Button
+            android:id="@+id/topping14"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/round_squere_topping"/>
+        <Button
+            android:id="@+id/topping15"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/diamond_topping" />
+
+        <Button
+            android:id="@+id/topping16"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/drop_topping" />
+        <Button
+            android:id="@+id/topping17"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/cloud_topping" />
+        <Button
+            android:id="@+id/topping18"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/flower_topping" />
+    </LinearLayout>
+
+        </LinearLayout>
+    <!--</HorizontalScrollView>-->
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    android:background="@color/lightGrayBackground"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/edit_button"
+            android:textAllCaps="false"
+            android:background="@drawable/chuk_logo_no_copy"
+            android:textSize="14sp"
+            android:textColor="#292950"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="4sp"
+            android:text="Edit"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.Toolbar>
+

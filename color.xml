@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9f8f8</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#7a77fd</color>
+    <color name="colorText">#292950</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorButton">#3f029e</color>
+    <color name="colorButtonPressed">#ff68a0</color>
+    <color name="lightGrayBackground">#f9f8f8</color>
+    <color name="lightBlueBackground">#e7f7ff</color>
+
+
+
+
+    <color name="colorLine">#ff8768</color>
+    <color name="colorFifthScreen">#e7f7ff</color>
+    <color name="red">#f44336</color>
+    <color name="green">#a5d6a7</color>
+    <color name="blue">#42a5f5</color>
+    <color name="black">#37474f</color>
+    <color name="orange">#ff3d00</color>
+    <color name="yellow">#ffeb3b</color>
+    <color name="pink">#ff4081</color>
+    <color name="purple">#e1bee7</color>
+    <color name="lightBlue">#b3e5fc</color>
+    <color name="lightGreen">#aed581</color>
+    <color name="cyan">#b2ebf2</color>
+    <color name="amber">#ffca28</color>
+    <color name="background">#f9f8f8</color>
+
+    <color name="editGrayBigShape">#7da4aab3</color>
+    <color name="editGraysmallShape">#7da4aab3</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="halfTransparent">#66000000</color>
+    <color name="halfTransparentWhite">#80FFFFFF</color>
+
+    <color name="halfTransparentOrange">#80ff6e40</color>
+    <color name="toppingGray">#bdbdbd</color>
+    <color name="darkBlack">#000000</color>
+    <color name="realGray">#616161</color>
+
+
+
+
+
+    <color name="color1">#044182</color>
+    <color name="color2">#3482C4</color>
+    <color name="color3">#1C6502</color>
+    <color name="color4">#B4FC30</color>
+    <color name="color5">#5F9D2D</color>
+    <color name="color6">#FFF8EB</color>
+    <color name="color7">#CC6427</color>
+    <color name="color8">#FB24F2</color>
+    <color name="color9">#EFEFEF</color>
+    <color name="color10">#8E8E8E</color>
+    <color name="color11">#AF0000</color>
+    <color name="color12">#DD3333</color>
+    <color name="color13">#29D6E4</color>
+    <color name="color14">#000000</color>
+    <color name="color15">#EEFF00</color>
+    <color name="color16">#EFEE22</color>
+    <color name="color17">#FFCE9E</color>
+    <color name="color18">#6927C3</color>
+    <color name="color19">#FFFFFF</color>
+    <color name="color20">#DC9A29</color>
+    <color name="color21">#FFC214</color>
+    <color name="color22">#C9C9C9</color>
+
+    <color name="color23">#ECF020</color>
+    <color name="color24">#1D73BE</color>
+    <color name="color25">#2A7112</color>
+    <color name="color26">#B10000</color>
+    <color name="color27">#DD3334</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

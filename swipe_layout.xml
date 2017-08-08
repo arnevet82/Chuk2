@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="110dp" />
+
+       <ImageView
+        android:id="@+id/big_rect"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/purple_squere_with_orange_line"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+
+    <!--android:layout_marginBottom="205dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+
+    <ImageView
+        android:layout_marginBottom="15dp"
+        android:id="@+id/cool_examples_text"
+        android:layout_above="@+id/top_photos"
+        android:paddingTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/some_cool_examples_f"
+        android:layout_width="wrap_content"
+        android:layout_height="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/top_photos"
+        android:layout_above="@+id/bottom_photos"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/earrings_pic"
+            android:background="@drawable/ring_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:id="@+id/earrings_pic"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/earrings_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/gyring_pic"
+            android:layout_toRightOf="@+id/earrings_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/bottom_photos"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/keychain_pic"
+            android:background="@drawable/opener_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:id="@+id/keychain_pic"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/sea_horse_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/name_necklace_pic"
+            android:layout_toRightOf="@+id/keychain_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

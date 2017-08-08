@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/text_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:shadowDy="10"
+        android:shadowDx="10"
+        android:shadowColor="#263238"
+        android:shadowRadius="10"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:lineSpacingExtra="5sp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:id="@+id/editText"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:letterSpacing="0.05"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="Done!"
+        android:background="@drawable/cancel_done_text_button"
+        android:id="@+id/done_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:letterSpacing="0.05"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="cancel"
+        android:background="@drawable/cancel_done_text_button"
+        android:id="@+id/cancel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+
+
+

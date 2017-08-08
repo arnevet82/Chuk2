@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include layout="@layout/toolbar_layout"></include>
+
+    <TextView
+        android:letterSpacing="0.01"
+        android:id="@+id/text"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="90dp"
+        android:textSize="17dp"
+        android:lineSpacingExtra="1dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <HorizontalScrollView
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/big_rect"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/left_arrow"
+            android:background="@drawable/arrow_left"
+            android:layout_width="30dp"
+            android:layout_height="65dp" />
+
+        <ImageView
+            android:layout_marginStart="57dp"
+            android:layout_width="150dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/heart_for_slider"
+            android:layout_height="150dp"
+            android:scaleType="centerInside" />
+
+        <Button
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/right_arrow"
+            android:background="@drawable/arrow_right"
+            android:layout_width="30dp"
+            android:layout_height="65dp" />
+        <Button
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/left_arrow1"
+            android:background="@drawable/arrow_left"
+            android:layout_width="30dp"
+            android:layout_height="65dp" />
+
+        <ImageView
+            android:layout_marginStart="57dp"
+            android:layout_width="150dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/triangle_for_slider"
+            android:layout_height="150dp"
+            android:scaleType="centerInside" />
+        <Button
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/right_arrow1"
+            android:background="@drawable/arrow_right"
+            android:layout_width="30dp"
+            android:layout_height="65dp" />
+        <Button
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/left_arrow2"
+            android:background="@drawable/arrow_left"
+            android:layout_width="30dp"
+            android:layout_height="65dp" />
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+
+    <ImageView
+        android:id="@+id/big_rect"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/purple_squere_with_orange_line"
+        android:layout_width="match_parent"
+        android:layout_height="270dp" />
+
+    <ImageView
+        android:layout_marginBottom="205dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/some_cool_examples_f"
+        android:layout_width="wrap_content"
+        android:layout_height="16sp" />
+
+    <View
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorText"
+        android:id="@+id/view_toolbar" />
+
+
+</RelativeLayout>

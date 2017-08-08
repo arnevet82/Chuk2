@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ring_container"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_marginTop="140dp"
+        android:layout_width="136dp"
+        android:layout_height="192dp"
+        android:background="@drawable/star_3"
+        android:scaleType="center"
+        android:visibility="visible"
+        android:id="@+id/star" />
+    <ImageView
+        android:id="@+id/oval"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="245dp"
+        android:layout_width="136dp"
+        android:layout_height="192dp"
+        android:background="@drawable/oval_4"
+        android:scaleType="center"
+        android:visibility="visible" />
+    <ImageView
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="236dp"
+        android:layout_height="212dp"
+        android:background="@drawable/triangle"
+        android:scaleType="center"
+        android:visibility="visible"
+        android:id="@+id/triangle" />
+
+    <include layout="@layout/toolbar_layout"></include>
+
+
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_below="@+id/ring_text"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/teddy_bear_ring"
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:background="@drawable/teddy_bear_ring" />
+
+        <Button
+            android:background="@color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:background="@drawable/sad_dog_ring"
+            android:id="@+id/sad_dog_ring"
+            android:layout_width="105dp"
+            android:layout_height="95dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_below="@+id/toplayout"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <Button
+            android:id="@+id/funny_bunny_ring"
+            android:layout_width="92dp"
+            android:layout_height="135dp"
+            android:background="@drawable/funny_bunny_ring" />
+
+        <Button
+            android:background="@color/transparent"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_marginTop="14dp"
+            android:background="@drawable/miao_ring"
+            android:id="@+id/miao_ring"
+            android:layout_width="95dp"
+            android:layout_height="105dp"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:background="@drawable/green_bubble"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="210dp"
+        android:id="@+id/bubble"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+
+
+    <include layout="@layout/before_payment_layout"></include>
+
+
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/ring_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#292950"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="4.7sp"
+            android:text="Which Animal are you?" />
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/main_image"
+            android:layout_width="175dp"
+            android:layout_height="250dp" />
+
+
+
+
+
+
+
+
+
+
+    <include layout="@layout/color_layout"></include>
+
+
+
+
+
+    <View
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorText"
+        android:id="@+id/view_toolbar" />
+
+
+
+
+</RelativeLayout>

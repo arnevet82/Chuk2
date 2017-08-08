@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorFifthScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout"></include>
+
+
+
+
+    <ImageView
+        android:background="@drawable/green_bubble"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="210dp"
+        android:id="@+id/bubble"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+    <include layout="@layout/before_payment_layout"></include>
+
+
+    <RelativeLayout
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/design_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/frame_shape"
+            android:layout_centerHorizontal="true"
+            android:layout_width="280dp"
+            android:layout_height="280dp"/>
+        <ImageView
+            android:id="@+id/color_frame_shape"
+            android:layout_centerHorizontal="true"
+            android:layout_width="280dp"
+            android:layout_height="280dp"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+    <include layout="@layout/color_layout"></include>
+    <include layout="@layout/text_layout"></include>
+
+
+
+
+    <View
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorText"
+        android:id="@+id/view_toolbar" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/ruler"
+        android:layout_below="@+id/design_container"
+        android:background="@drawable/sargel_stripes"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons_nav_bar"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:drawableTop="@drawable/color"
+            android:background="#3f029e"
+            android:textSize="10dp"
+            android:text="Color"
+            android:textColor="@color/lightBlueBackground"
+            android:textAllCaps="false"
+            android:id="@+id/color"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:paddingTop="5dp"
+            />
+
+        <Button
+            android:backgroundTint="@color/transparent"
+            android:layout_width="5dp"
+            android:layout_height="30dp" />
+
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:drawableTop="@drawable/text"
+            android:background="#3f029e"
+            android:textSize="10dp"
+            android:text="Text"
+            android:textColor="@color/lightBlueBackground"
+            android:textAllCaps="false"
+            android:id="@+id/text"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:paddingTop="5dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+    <ImageView
+        android:layout_marginTop="140dp"
+        android:layout_width="136dp"
+        android:layout_height="192dp"
+        android:background="@drawable/star_3"
+        android:scaleType="center"
+        android:visibility="visible"
+        android:id="@+id/imageView2" />
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="245dp"
+        android:layout_width="136dp"
+        android:layout_height="192dp"
+        android:background="@drawable/oval_4"
+        android:scaleType="center"
+        android:visibility="visible" />
+    <ImageView
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="150dp"
+        android:layout_width="236dp"
+        android:layout_height="212dp"
+        android:background="@drawable/triangle"
+        android:scaleType="center"
+        android:visibility="visible"
+        android:id="@+id/imageView" />
+
+    <View
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorText"
+        android:id="@+id/view_toolbar" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="19dp"
+        android:lineSpacingExtra="1dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Choose your unique\n3D creation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:id="@+id/coasters"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/magnets"
+        android:background="@drawable/coasters_option_blink"
+        android:layout_width="95.7dp"
+        android:layout_height="113.3dp" />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_margin="5dp"
+        android:background="@drawable/magnets_option_blink"
+        android:id="@+id/magnets"
+        android:layout_width="95.7dp"
+        android:layout_height="113.3dp" />
+    <Button
+        android:layout_margin="5dp"
+        android:layout_below="@+id/text"
+        android:layout_toLeftOf="@+id/magnets"
+        android:background="@drawable/opener_option_blink"
+        android:id="@+id/opener"
+        android:layout_centerVertical="true"
+        android:layout_width="95.7dp"
+        android:layout_height="113.3dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:text="Door Sign"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_below="@+id/magnets"
+        android:layout_margin="5dp"
+        android:background="@drawable/oval_for_slider"
+        android:id="@+id/door_sign"
+        android:layout_width="85dp"
+        android:layout_height="85dp" />
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="#455a64"
+        android:lineSpacingExtra="4sp"
+        android:textSize="13dp"
+        android:text="The price ranges from  ___$ -  ___$ depending\n on the product you select. Good luck!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <include layout="@layout/toolbar_layout"></include>
+
+
+
+</RelativeLayout>

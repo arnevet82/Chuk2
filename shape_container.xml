@@ -1,0 +1,9 @@
+<FrameLayout
+    android:id="@+id/shape_container"
+    android:layout_marginTop="35dp"
+    android:layout_width="match_parent"
+    android:layout_height="390dp"
+    android:scaleType="fitStart"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</FrameLayout>

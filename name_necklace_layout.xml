@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorFifthScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout"></include>
+
+
+
+
+    <ImageView
+        android:background="@drawable/green_bubble"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="210dp"
+        android:id="@+id/bubble"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+    <include layout="@layout/before_payment_layout"></include>
+
+
+    <FrameLayout
+        android:background="@color/transparent"
+        android:layout_marginTop="80dp"
+        android:id="@+id/name_necklace_container"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/name_necklace_text"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#292950"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="4.7sp" />
+
+        <include layout="@layout/text_name_necklace_layout"></include>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+    <include layout="@layout/color_layout"></include>
+
+
+
+
+
+    <View
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorText"
+        android:id="@+id/view_toolbar" />
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_gravity="bottom"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="57.2dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorButton"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu_ready_made" />
+
+</RelativeLayout>
